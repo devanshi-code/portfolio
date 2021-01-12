@@ -1,5 +1,35 @@
 *{
     margin: 0;
     padding: 0;
+    border: 2px solid blueviolet;
+}
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:150%;
+    border: none;
+    
+
+    
+.navbar{
+       display:flex;
 }
 
+.nav-list{
+         width:50%;
+         background-color: white;
+}
+.nav-list li{
+
+}
+.nav-list li a{
+
+}
+.rightnav{
+         background-color: black;
+         width:100%;
+}
