@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Devanshi Mishra</title>
+    <style>
+    ul.a {
+        list-style-position: outside;
+      }
+      </style>
 </head>
 <body>
     <nav class="navbar background">
         <ul class="nav-list">
             <div class="logo"><img src="code.jpg" alt="code enthusiast"></div>
-            <p id="demo">Hello users</p>
+        
+            <div class="rightnav">
+                <input type="text" name="search" id="search">
+                <button class="btn btn-sm">Search</button>
+            </div>        
 
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Hope you find it amazing"''>Click Me!</button>
+
 
             <li><a href="#home"><b>Home</b></a></li>
             <li><a href="#about"><b>About</b></a></li>
+            <li><a href="#skills"><b>Skills</b></a></li>
+               <ul class="a">
+                <li><b>C++</b></li>
+                <li><b>C</b></li>
+                <li><b>Python</b></li>
+              </ul>
             <li><a href="contact us"><b>Contact</b></a>
+             
             
                 <div class="container">
                     <form action="action_page.php">
@@ -37,12 +55,16 @@
             </li>
             <li><a href="https://www.linkedin.com/in/devanshi-mishra-323aa21aa/"><b>Linkedin</b></a></li>
             <li><a href="https://www.instagram.com/_devu_27_/"><b>instagram</b></a></li>
-            <div class="rightnav">
-                <input type="text" name="search" id="search">
-                <button class="btn btn-sm">Search</button>
+            
          </ul>       
       </div>
     </nav>
+    <div class="footer">
+        
+        <div class="footer-bottom">
+            &copy;devanshimishra.com |Designed by Devanshi Mishra
+        </div>
+    </div>
     
     
 </body>
