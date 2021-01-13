@@ -7,19 +7,43 @@
     <title>Devanshi Mishra</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar background">
         <ul class="nav-list">
             <div class="logo"><img src="code.jpg" alt="code enthusiast"></div>
+            <p id="demo">Hello users</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hope you find it amazing"''>Click Me!</button>
+
             <li><a href="#home"><b>Home</b></a></li>
             <li><a href="#about"><b>About</b></a></li>
-            <li><a href="Contact us"><b>Contact</b></a></li>
+            <li><a href="contact us"><b>Contact</b></a>
+            
+                <div class="container">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">Full Name</label>
+                      <input type="text" id="fname" name="fullname" >
+                  
+                      <label for="Email">Email</label>
+                      <input type="text" id="Email" name="Email" >
+                      <input type="submit" value="Submit">
+            
+                    </form>
+                  </div>    
+            
+            
+            
+            
+            </li>
             <li><a href="https://www.linkedin.com/in/devanshi-mishra-323aa21aa/"><b>Linkedin</b></a></li>
             <li><a href="https://www.instagram.com/_devu_27_/"><b>instagram</b></a></li>
             <div class="rightnav">
                 <input type="text" name="search" id="search">
                 <button class="btn btn-sm">Search</button>
-            </div>
-        </ul>
+         </ul>       
+      </div>
     </nav>
+    
+    
 </body>
 </html>
