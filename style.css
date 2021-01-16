@@ -47,7 +47,7 @@
 }
 
 .background{
-     background: rgba(0, 0,0, 0.7)url('abc.jpg');
+     background:  url('inp.jpg');
      background-size: cover;
      background-blend-mode: darken;
 
