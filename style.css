@@ -105,7 +105,7 @@ input[type=text], select, textarea{
     clear: both;
   }
   .footer{
-      height: 400px;
+      height: 30px;
       text-align: center;
       position: relative;
   }
